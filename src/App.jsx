@@ -11,7 +11,7 @@ const App = () => {
       <main>
         {/* Wave 01: Render one ChatEntry component
         Wave 02: Render ChatLog component */}
-        <div><ChatLog chatData={DATA}/></div>
+        <div><ChatLog entries={DATA}/></div>
       </main>
     </div>
   );
